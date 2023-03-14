@@ -16,3 +16,8 @@ jobs:
          uses: aop-sanity-test/aop-action-repo-1@1.0.0
          with:
               milliseconds : 1
+       - name: AOP Action
+         uses: aop-sanity-test/aop-action-repo-2@1.0.0
+         with:
+              milliseconds : 1
+       
