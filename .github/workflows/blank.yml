@@ -1,4 +1,3 @@
-
 # This is a basic workflow to help you get started with Actions
 
 name: AOP Repos one action
@@ -14,6 +13,6 @@ jobs:
          with:
               milliseconds : 1
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-19@1.0.0
+         uses: aop-sanity-test/aop-action-repo-1@1.0.0
          with:
               milliseconds : 1
